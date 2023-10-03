@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `My favorite Shows Blog`,
+    title: `My Favorite Shows Blog`,
     description: `This blog contains my favorite shows to watch!`,
     author: `Jason Heredia`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -16,6 +16,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
