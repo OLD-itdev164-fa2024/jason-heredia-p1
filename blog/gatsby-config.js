@@ -31,10 +31,10 @@ module.exports = {
         accessToken: `${process.env.ACCESS_TOKEN}`
       }
     },
+    `gatsby-plugin-image`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
